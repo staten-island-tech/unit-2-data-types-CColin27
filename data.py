@@ -20,22 +20,86 @@ def is_tenured(status):
         print("They have tenure")
     else:
         print("They are not tenured") """
-""" 
-x = 3
-y = float(3)
-print(x,y) """
 
+
+
+#Floats
+""" x = 3
+y = float(3)
+print(x,y)  """
+
+
+#Lists
 """ values = [1,2.23,5,7,2,30,15]
 print(values)
 for i in values:
     print(i)
 
 print(values[0])
-print(values[6]) """
+print(values[6])  
 
-x = "this is a thing"
+
+""" #String Methods
+""" x = "this is a thing"
 y= x.split( )
 z = y[0]
 print(y)
-print(z)
+print(z)  """
+
+
+
+""" Question = "Input a Sentence"
+def answer(response):
+    print(response)
+answer(Question)  """ 
+
+
+
+""" #Booleans
+day_of_week = input("what day is it? ")
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect") """
+
+
+
+#F Strings
+""" x = "test"
+print(f"hello {x}") """
+
+
+""" temp = 75 
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+
+
+#Challenge 1
+""" number = 4
+if number == 4:
+    print('Even')
+else:
+    print('Odd') """
+
+
+
+#Challenge 2
+x = "0%,15%,20%,25%"
+print(f" {x}")
+Tip = input("Choose a Tip Amount")
+if Tip == "0%":
+    print("bad")
+if Tip == "15%":
+    print("okay")
+if Tip == "20%":
+    print("good")
+else:
+    print("great")
+
+
 
