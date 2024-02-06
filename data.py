@@ -132,11 +132,17 @@ if Question == (int % 2):
     print("even")
 else:
     print("odd")
+""" number = 4
+if number == 4:
+    print('Even')
+else:
+    print('Odd') """
 
 
 
 #Challenge 2
 """ x = "0%,15%,20%,25%"
+x = "0%,15%,20%,25%"
 print(f" {x}")
 Tip = input("Choose a Tip Amount")
 if Tip == "0%":
@@ -152,6 +158,7 @@ else:
 
 #Challenge 3
 """ factors = input("Type a number between 1-10") """
+
 
 
 
