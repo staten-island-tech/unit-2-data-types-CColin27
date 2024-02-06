@@ -104,16 +104,39 @@ else:
 
 
 #Challenge 1
-""" number = 4
-if number == 4:
-    print('Even')
+""" Question = input("Type a number between 1-10")
+if Question == "1":
+    print('odd')
+elif Question == "2":
+    print('even')
+elif Question == "3":
+    print('odd')
+elif Question == "4":
+    print('even')
+elif Question == "5":
+    print('odd')
+elif Question == "6":
+    print('even')
+elif Question == "7":
+    print('odd')
+elif Question == "8":
+    print('even')
+elif Question == "9":
+    print('odd')
+elif Question == "10":
+    print('even')
+ """
+
+Question = input("Type a number between 1-10")
+if Question == (int % 2):
+    print("even")
 else:
-    print('Odd') """
+    print("odd")
 
 
 
 #Challenge 2
-x = "0%,15%,20%,25%"
+""" x = "0%,15%,20%,25%"
 print(f" {x}")
 Tip = input("Choose a Tip Amount")
 if Tip == "0%":
@@ -124,6 +147,11 @@ if Tip == "20%":
     print("good")
 else:
     print("great")
+ """
+
+
+#Challenge 3
+""" factors = input("Type a number between 1-10") """
 
 
 
