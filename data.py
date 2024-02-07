@@ -127,12 +127,18 @@ elif Question == "10":
     print('even')
  """
 
-Question = input("Type a number between 1-10")
-if Question == (int % 2):
-    print("even")
+""" Question = input("Type a number and I will tell you if it is odd or even")
+if Question % 2 == 0:
+    print('even')
 else:
-    print("odd")
+    print('odd') """
 
+
+number = input("Enter a number: ")
+if number % 2 == 0:
+    print(f"{number} is even.")
+else:
+    print(f"{number} is odd.")
 
 
 #Challenge 2
