@@ -104,11 +104,11 @@ else:
 
 
 #Challenge 1
-number = int(input("Enter a number: "))
+""" number = int(input("Enter a number: "))
 if number%2 == 0:
     print(f"{number} is even.")
 else:
-    print(f"{number} is odd.")
+    print(f"{number} is odd.") """
 
 
 #Challenge 2
@@ -128,7 +128,8 @@ else:
 
 
 #Challenge 3
-""" factors = input("Type a number between 1-10") """
+number = int(input("enter a number: "))
+
 
 
 
