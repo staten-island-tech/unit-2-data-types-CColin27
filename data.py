@@ -128,7 +128,7 @@ else:
 
 
 #Challenge 3
-number = int(input("enter a number and I will tell all the factors of the number up to 12: "))
+""" number = int(input("enter a number and I will tell all the factors of the number up to 12: "))
 print(f"{number}")
 print("1")
 if number%2 == 0:
@@ -152,11 +152,13 @@ if number%10 == 0:
 if number%11 == 0:
     print("11")
 if number%12 == 0:
-    print("12")
+    print("12") """
 
 
 #Challenge 4
-
-
-
-
+""" number = int(input("enter a number: "))
+print(f"{number}")
+number2 = int(input("Now enter another number: "))
+print(f"{number2}")
+print(f"the GCF of {number} and {number2} is.. ")
+ """
