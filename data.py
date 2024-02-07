@@ -129,7 +129,8 @@ else:
 
 #Challenge 3
 number = int(input("enter a number and I will tell all the factors of the number up to 12: "))
-print(f"{number}, 1")
+print(f"{number}")
+print("1")
 if number%2 == 0:
     print("2")
 if number%3 == 0:
