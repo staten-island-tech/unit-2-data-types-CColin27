@@ -114,6 +114,7 @@ else:
 #Challenge 2
 """ x = "0%,15%,20%,25%"
 x = "0%,15%,20%,25%"
+=======
 print(f" {x}")
 Tip = input("Choose a Tip Amount")
 if Tip == "0%":
@@ -129,6 +130,14 @@ else:
 
 #Challenge 3
 number = int(input("enter a number: "))
+if number%2 == 0:
+    print("2")
+elif number%3 == 0:
+    print("3")
+elif number%4 == 0:
+    print("4")
+
+
 
 
 
