@@ -155,6 +155,15 @@ if number%12 == 0:
     print("12") """
 
 
+
+number = int(input("Enter a number: "))
+for i in range(1, number + 1):
+    if number % i == 0:
+        print(i)
+
+
+
+
 #Challenge 4
 """ number = int(input("enter a number: "))
 print(f"{number}")
