@@ -114,7 +114,6 @@ else:
 #Challenge 2
 """ x = "0%,15%,20%,25%"
 x = "0%,15%,20%,25%"
-=======
 print(f" {x}")
 Tip = input("Choose a Tip Amount")
 if Tip == "0%":
@@ -129,16 +128,33 @@ else:
 
 
 #Challenge 3
-number = int(input("enter a number: "))
+number = int(input("enter a number and I will tell all the factors of the number up to 12: "))
+print(f"{number}, 1")
 if number%2 == 0:
     print("2")
-elif number%3 == 0:
+if number%3 == 0:
     print("3")
-elif number%4 == 0:
+if number%4 == 0:
     print("4")
+if number%5 == 0:
+    print("5")
+if number%6 == 0:
+    print("6")
+if number%7 == 0:
+    print("7")
+if number%8 == 0:
+    print("8")
+if number%9 == 0:
+    print("9")
+if number%10 == 0:
+    print("10")
+if number%11 == 0:
+    print("11")
+if number%12 == 0:
+    print("12")
 
 
-
+#Challenge 4
 
 
 
