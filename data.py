@@ -104,40 +104,11 @@ else:
 
 
 #Challenge 1
-""" Question = input("Type a number between 1-10")
-if Question == "1":
-    print('odd')
-elif Question == "2":
-    print('even')
-elif Question == "3":
-    print('odd')
-elif Question == "4":
-    print('even')
-elif Question == "5":
-    print('odd')
-elif Question == "6":
-    print('even')
-elif Question == "7":
-    print('odd')
-elif Question == "8":
-    print('even')
-elif Question == "9":
-    print('odd')
-elif Question == "10":
-    print('even')
- """
-
-Question = input("Type a number between 1-10")
-if Question == (int % 2):
-    print("even")
+number = int(input("Enter a number: "))
+if number%2 == 0:
+    print(f"{number} is even.")
 else:
-    print("odd")
-""" number = 4
-if number == 4:
-    print('Even')
-else:
-    print('Odd') """
-
+    print(f"{number} is odd.")
 
 
 #Challenge 2
