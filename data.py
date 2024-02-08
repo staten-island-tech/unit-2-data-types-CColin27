@@ -1,3 +1,6 @@
+import math
+from math import *
+
 """ #Data Types
 #numbers 1,2,3
 def add(x,y):
@@ -112,7 +115,7 @@ else:
 
 
 #Challenge 2
-""" x = "0%,15%,20%,25%"
+""" 
 x = "0%,15%,20%,25%"
 print(f" {x}")
 Tip = input("Choose a Tip Amount")
@@ -128,46 +131,41 @@ else:
 
 
 #Challenge 3
-""" number = int(input("enter a number and I will tell all the factors of the number up to 12: "))
-print(f"{number}")
-print("1")
-if number%2 == 0:
-    print("2")
-if number%3 == 0:
-    print("3")
-if number%4 == 0:
-    print("4")
-if number%5 == 0:
-    print("5")
-if number%6 == 0:
-    print("6")
-if number%7 == 0:
-    print("7")
-if number%8 == 0:
-    print("8")
-if number%9 == 0:
-    print("9")
-if number%10 == 0:
-    print("10")
-if number%11 == 0:
-    print("11")
-if number%12 == 0:
-    print("12") """
-
-
-
-number = int(input("Enter a number: "))
+""" number = int(input("Enter a number: "))
 for i in range(1, number + 1):
     if number % i == 0:
-        print(i)
+        print(i) """
 
 
 
 
 #Challenge 4
-""" number = int(input("enter a number: "))
-print(f"{number}")
-number2 = int(input("Now enter another number: "))
-print(f"{number2}")
-print(f"the GCF of {number} and {number2} is.. ")
- """
+""" number = int(input("Enter a number: "))
+number2 = int(input("Enter another number and I will find the GCF: "))
+gcf = gcd(number, number2)
+
+print(f"The GCF of {number} and {number2} is {gcf}") """
+
+
+
+#Tip Calculator
+Bill = float(input("Enter your amount: "))
+x = "0%,15%,20%,25%"
+print(x)
+Tip = input("Now select your tipping amount: ")
+if Tip == "0%":
+    print(Bill)
+elif Tip == "15%":
+    Bill = Bill *1.15
+    print(Bill)
+elif Tip == "20%":
+    Bill = Bill *1.2
+    print(Bill)
+elif Tip == "25%":
+    Bill = Bill *1.25
+    print(Bill)
+
+
+
+
+
