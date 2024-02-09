@@ -114,6 +114,7 @@ else:
     print(f"{number} is odd.") """
 
 
+
 #Challenge 2
 """ 
 x = "0%,15%,20%,25%"
