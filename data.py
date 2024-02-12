@@ -150,8 +150,21 @@ print(f"The GCF of {number} and {number2} is {gcf}") """
 
 
 
+#Challenge 4 no import math
+values = [0,]
+number = int(input("Enter a number: "))
+number2 = int(input("Now enter another number: "))
+
+
+        
+
+
+
+
+
+
 #Tip Calculator
-Bill = float(input("Enter your amount: "))
+""" Bill = float(input("Enter your amount: "))
 x = "0%,15%,20%,25%"
 print(x)
 Tip = input("Now select your tipping amount: ")
@@ -165,7 +178,7 @@ elif Tip == "20%":
     print(f"Amount: {Bill}")
 elif Tip == "25%":
     Bill = Bill *1.25
-    print(f"Amount: {Bill}")
+    print(f"Amount: {Bill}") """
 
 
 
