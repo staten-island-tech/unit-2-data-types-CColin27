@@ -151,18 +151,20 @@ print(f"The GCF of {number} and {number2} is {gcf}") """
 
 
 #Challenge 4 no import math
-values = [0,]
+values = []
 
 number = int(input("Enter a number: "))
 number2 = int(input("Now enter another number: "))
-for i in range(1, number + 1):
-    if number % i == 0:
-        print(i)
+for j in range(1, number + 1):
+    if number % j == 0:
+        values.append(j)
 
 
 for i in range(1, number2 + 1):
     if number2 % i == 0:
-        print(i)
+        if i == j:
+            print(values[-1])
+
 
 
 
