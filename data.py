@@ -157,13 +157,11 @@ number = int(input("Enter a number: "))
 number2 = int(input("Now enter another number: "))
 for i in range(1, number + 1):
     if number % i == 0:
-        values.append(i)
+        print(i)
 
 
-for j in range(1, number2 + 1):
-    if number2 % i == 0:
-        if j == i:
-            print(values)
+
+       
 
 
 
