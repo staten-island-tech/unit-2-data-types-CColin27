@@ -173,10 +173,6 @@ for i in range(1, number2 + 1):
         
 
 
-
-
-
-
 #Tip Calculator
 """ Bill = float(input("Enter your amount: "))
 x = "0%,15%,20%,25%"
