@@ -135,9 +135,8 @@ else:
 """ number = int(input("Enter a number: "))
 for i in range(1, number + 1):
     if number % i == 0:
-        print(i) """
-
-
+        print(i) 
+ """
 
 
 #Challenge 4
@@ -152,21 +151,16 @@ print(f"The GCF of {number} and {number2} is {gcf}") """
 
 #Challenge 4 no import math
 values = []
+values2 = []
 
 number = int(input("Enter a number: "))
 number2 = int(input("Now enter another number: "))
 for j in range(1, number + 1):
     if number % j == 0:
-        values.append(j)
-
-
-for i in range(1, number2 + 1):
-    if number2 % i == 0:
-        if i == j:
-            print(values[-1])
-
-
-
+       if number2 % j == 0:
+           values.append(j)
+           print(values[-1])
+        
 
 
 
